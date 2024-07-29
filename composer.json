@@ -1,0 +1,21 @@
+{
+    "name": "eduard/mailing",
+    "description": "Mailing module for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eduard\\Mailing\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eduard\\Mailing\\MailingServiceProvider"
+            ]
+        }
+    }
+}
